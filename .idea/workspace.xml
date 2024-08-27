@@ -4,22 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52d3cd06-ce76-4775-8804-bb4f2523eedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/methodically_edu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_working_with_files/1/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_working_with_files/2/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_working_with_files/2/city.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_working_with_files/3/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_working_with_files/3/city.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_working_with_files/4/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_working_with_files/5/5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_working_with_files/5/surnames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="52d3cd06-ce76-4775-8804-bb4f2523eedb" name="Changes" comment="Задания по методичке, а также новые проект с окружением">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_working_with_files/1/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_files_9/1/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_working_with_files/1/numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_files_9/1/numbers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_working_with_files/2/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_files_9/2/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_working_with_files/2/city.txt" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_files_9/2/city.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_working_with_files/3/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_files_9/3/3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_working_with_files/3/city.txt" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_files_9/3/city.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_working_with_files/3/city_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_files_9/3/city_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_working_with_files/4/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_files_9/4/4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_working_with_files/4/decode.txt" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_files_9/4/decode.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_working_with_files/5/5.py" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_files_9/5/5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_working_with_files/5/man.txt" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_files_9/5/man.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_working_with_files/5/surnames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_files_9/5/surnames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_working_with_files/5/woman.txt" beforeDir="false" afterPath="$PROJECT_DIR$/working_with_files_9/5/woman.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +87,34 @@
       <option name="presentableId" value="Default" />
       <updated>1724661092657</updated>
     </task>
+    <task id="LOCAL-00001" summary="Задания по методичке, а также новые проект с окружением">
+      <option name="closed" value="true" />
+      <created>1724745185558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724745185558</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Задания по методичке, а также новые проект с окружением">
+      <option name="closed" value="true" />
+      <created>1724745200816</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724745200816</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Задания по методичке, а также новые проект с окружением" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задания по методичке, а также новые проект с окружением" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/9_working_with_files/4/4.py</url>
+          <url>file://$PROJECT_DIR$/working_with_files_9/4/4.py</url>
           <line>3</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
