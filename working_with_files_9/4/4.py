@@ -1,11 +1,9 @@
-# decoded_string = b'\xd0\x9f\xd1\x80\xd0\xb0\xd0\xb2\xd0\xb8\xd0\xbb\xd1\x8c\xd0\xbd\xd0\xbe\xd0\xb9'
-# print(decoded_string.decode('UTF-8'))
+line: bytes = b"\xd0\x9f\xd1\x80\xd0\xb0\xd0\xb2\xd0\xb8\xd0\xbb\xd1\x8c\xd0\xbd\xd0\xbe\xd0\xb9 " \
+              b"\xd0\xb4\xd0\xbe\xd1\x80\xd0\xbe\xd0\xb3\xd0\xbe\xd0\xb9 " \
+              b"\xd0\xb8\xd0\xb4\xd1\x91\xd1\x82\xd0\xb5, " \
+              b"\xd1\x82\xd0\xbe\xd0\xb2\xd0\xb0\xd1\x80\xd0\xb8\xd1\x89\xd0\xb8!\n"
 
-with open('decode.txt', 'rb') as file:
-    content = file.readlines()
-    lines: list[bytes] = []
-    for line in content:
-        lines.append(line.rstrip())
-
-    for word in lines:
-        print(word.decode('UTF-8'))
+with open('decode.txt', mode='w', encoding='UTF-8') as reader:
+    decoded_string: str = line.decode('UTF-8')
+    reader.write(decoded_string)
+    print(decoded_string)
