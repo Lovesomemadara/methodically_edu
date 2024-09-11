@@ -1,5 +1,4 @@
-def user_input_division(usr_inp: int | str | float,
-                        div_num: int | str | float):
+def user_input_division(usr_inp: int | str, div_num: int | str):
     try:
         result: int | float = int(usr_inp) / int(div_num)
         return print(f'Результат деления равен: {result:.2f}')
@@ -9,7 +8,11 @@ def user_input_division(usr_inp: int | str | float,
               f'Программа остановлена! '
               f'Поделить {usr_inp} на {div_num} нельзя!')
     except ValueError:
-        print('Возникла какая то ошибка!\n'
+        print('Возникла ошибка с вводом данных!\n'
+              f'Программа остановлена! '
+              f'Поделить {usr_inp} на {div_num} нельзя!')
+    except TypeError:
+        print('Возникла ошибка типа данных!\n'
               f'Программа остановлена! '
               f'Поделить {usr_inp} на {div_num} нельзя!')
 
