@@ -1,8 +1,11 @@
-def get_number() -> str:
+from exceptions_8.get_number import get_num
+
+
+def check_number() -> str:
     """Text.
     :raise ValueError:
     """
-    if 10 <= (num := int(input("Введите число: "))) <= 20:
+    if 10 <= (num := get_num("Введите число: ")) <= 20:
         return f"Работаем с число {num}"
     raise ValueError
 
@@ -10,9 +13,9 @@ def get_number() -> str:
 if __name__ == "__main__":
     while True:
         try:
-            res = get_number()
+            result: str = check_number()
         except ValueError:
             print("Ошибка! Вы ввели не число или число не в диапазоне!")
         else:
-            print(res)
+            print(result)
             break
