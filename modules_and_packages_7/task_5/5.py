@@ -4,6 +4,7 @@ from colorama import Fore, Style
 from lorem_text import lorem
 
 
+# TODO:
 def countdown():
     for i in range(3, 0, -1):
         print(f'{i}...', end=' ')
@@ -12,8 +13,8 @@ def countdown():
 
 
 def generate_text():
-    range_words: int = random.randint(5, 15)
-    random_words: str = lorem.words(range_words)
+    count_words: int = random.randint(5, 15)
+    random_words: str = lorem.words(count_words)
     print(f'{Fore.CYAN}{random_words}{Style.RESET_ALL}\n')
     return random_words
 

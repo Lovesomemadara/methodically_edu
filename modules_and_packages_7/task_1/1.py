@@ -1,12 +1,18 @@
 import string
 import random
 
-letters: str = string.ascii_letters + string.digits
-# rand_letters: list[str] = random.choices(letters, k=10)
-# rand_letters: list[str] = random.sample(letters, k=10)
+N: int = 10
+CHARS: str = string.ascii_letters + string.digits
 
+# №1
+rand_letters: list[str] = random.choices(CHARS, k=N)
+
+# №2
+rand_letters: list[str] = random.sample(CHARS, k=N)
+
+# №3
 result: list[str] = []
-for _ in range(10):
-    result.append(random.choice(letters))
+for _ in range(N):
+    result.append(random.choice(CHARS))
 
 print(result)
