@@ -5,6 +5,7 @@ from exceptions_8.get_number import get_num
 rand_int: int = random.randint(1, 10)
 
 
+# TODO:
 def check_number(user_input: int):
     if user_input not in range(1, 11):
         return 'Ошибка Введите число от 1 до 10'

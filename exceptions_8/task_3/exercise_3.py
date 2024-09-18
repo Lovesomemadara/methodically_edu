@@ -1,16 +1,12 @@
 def user_input_division(usr_inp: int, div_num: int) -> float:
-    division: float = int(usr_inp) / int(div_num)
+    division: float = usr_inp / div_num
     return division
 
 
 if __name__ == '__main__':
+    inp, div = input('Введите число: '), input('Введите число: ')
     try:
-        result: float = (
-            user_input_division(
-                inp := input('Введите число: '),
-                div := input('Введите число: ')
-            )
-        )
+        result: float = user_input_division(int(inp), int(div))
     except ZeroDivisionError:
         print('На ноль делить нельзя!\n'
               'Программа остановлена! '

@@ -1,4 +1,5 @@
 import re
+import string
 
 from colorama import Fore, Style
 
@@ -30,9 +31,9 @@ def check_letters():
     #         "латинские буквы и нижнее подчеркивание"
     #     )
     #     return False
-    allowed_chars: str = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+    allowed_chars: str = string.ascii_letters + string.digits
     for char in password:
-        if char not in allowed_chars and '_' not in password:
+        if char not in allowed_chars and "_" not in password:
             print(
                 "В пароле должны присутствовать только цифры, "
                 "латинские буквы и нижнее подчеркивание"
@@ -55,9 +56,7 @@ def submit_pass():
         return f"{Fore.GREEN} Пароль принят!{Style.RESET_ALL}"
     else:
         return (
-            f"{Fore.RED} "
-            "Пароль не соответствует требованиям! "
-            f"{Style.RESET_ALL}"
+            f"{Fore.RED} " "Пароль не соответствует требованиям! " f"{Style.RESET_ALL}"
         )
 
 

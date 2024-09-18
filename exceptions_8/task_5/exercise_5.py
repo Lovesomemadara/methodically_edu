@@ -11,9 +11,8 @@ def timer(number: int):
 
 def run(usr_inp: int):
     if not (10 < usr_inp < 30):
-        print('Ошибка! Введите число от 10 до 30')
-    else:
-        return timer(usr_inp)
+       raise ValueError('Ошибка! Введите число от 10 до 30')
+    return timer(usr_inp)
 
 
 if __name__ == '__main__':
