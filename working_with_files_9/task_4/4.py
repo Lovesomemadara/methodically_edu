@@ -6,4 +6,4 @@ line: bytes = b"\xd0\x9f\xd1\x80\xd0\xb0\xd0\xb2\xd0\xb8\xd0\xbb\xd1\x8c\xd0\xbd
 with open('decode.txt', mode='w', encoding='UTF-8') as reader:
     decoded_string: str = line.decode('UTF-8')
     reader.write(decoded_string)
-    print(decoded_string)
+    print(decoded_string, end='')
